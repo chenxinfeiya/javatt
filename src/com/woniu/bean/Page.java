@@ -29,16 +29,7 @@ public class Page {
 	public void setCountRow(Integer countRow) {
 		this.countRow = countRow;
 	}
-	public User(Integer pageNum, Integer pageRow, Integer countNum, Integer countRow) {
-		super();
-		this.pageNum = pageNum;
-		this.pageRow = pageRow;
-		this.countNum = countNum;
-		this.countRow = countRow;
-	}
-	public User() {
-		super();
-	}
+	
 	@Override
 	public String toString() {
 		return "User [pageNum=" + pageNum + ", pageRow=" + pageRow + ", countNum=" + countNum + ", countRow=" + countRow
